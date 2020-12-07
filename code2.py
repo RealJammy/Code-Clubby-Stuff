@@ -1,4 +1,4 @@
-attendance = float(input("Please enter in the percentage of which the pupil attended school. For example, if they attended 83%, type in 83."))
+attendance = float(input("Please enter in the percentage of which the pupil attended school.\nFor example, if they attended 83%, type in 83. \n"))
 if attendance >= 90:
     print("Student has completed the course! Now their marks.")
     mark = int(input("Please enter the pupil's mark: ")) 
@@ -59,8 +59,8 @@ if attendance >= 90:
             print("This pupil cheated, reporting to OCR.")
         else: 
             print("You entered a grade in wrong. Please try again you worthless heap of crap")
-            mark = int(input("Please enter the pupil's mark: ")) 
+        mark = int(input("Please enter the pupil's mark: ")) 
 
-    mark = int(input("Please enter the pupil's mark: "))
+    
 else:
     print("The student has failed due to a lack of attendance.")
